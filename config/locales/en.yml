@@ -25,6 +25,7 @@ en:
   create_submission: Submit
   created_at: Created at
   destroy: Destroy
+  details: Details
   edit: Edit
   edit_exercise: Edit %{exercise}
   errored: Oops, your solution didn't work
@@ -36,8 +37,8 @@ en:
   exercises_index_title: Looking for a specific exercise?
   expectations: Expectations
   export_created: Export queued
+  extend_mumuki: Extend Mumuki!
   extras: Extras
-  follow_us: Follow Us
   facebook_signin_reason: Sign in with Facebook if you just want to start programming
   failed: Oops, something went wrong
   failed_exercises_stats: You tried to <strong>resolve %{count} more exercises</strong>.
@@ -62,6 +63,7 @@ en:
   import_export: Import/Export
   imports: Updates
   language: Language
+  languages: Languages
   last_submission_date: Last submission
   latest_exercises: Latest exercises
   latest_guides: latests guides
@@ -105,6 +107,8 @@ en:
   processing_you_solution: We are processing you solution
   profile_of: Profile of %{username}
   progress: Progresss
+  exercises: Exercises
+  follow_us: Follow Us
   refresh_collaborators: Refresh collaborators!
   refresh_or_wait: Please press F5 if results are not displayed after a few seconds
   running: running
@@ -116,6 +120,7 @@ en:
   sign_in_with_github: Sign in with Github
   sign_out: Sign Out
   sign_up_date: User since
+  solved_exercises: Solved Exercises
   start_practicing: Start Practicing!
   stats: Some stats
   status: Status
@@ -123,22 +128,46 @@ en:
   submission: submission
   submission_date: Submission date
   submission_for_exercise: Submission for exercise
+  submissions: Submissions
   submissions_count: Submissions
   submissions_for: Submissions for %{exercise}
   submissions_success_rate: Submissions success rate
   tag: Tags
+  test_results: Test results
   title: Title
   unfollow: Unfollow!
+  unknown: not solved
+  unknown_exercises_stats: And there still are <strong> %{count} that you could try to solve</strong>.
   username: Username
   you_can_use_markdown_here_html: You can use <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> here
   you_must: You must %{action} before continue
   you_must_sign_in_before_submitting: You must sign in before submitting your solutions
+  you_must_sign_in_to_see_stats: null
   what_exactly_are_expectations_html: ¿What exactly are <a href="http://www.mumuki.org/expectativas/plataform/2015/06/16/el-lenguaje-de-expectativas/">Expectations</a>?
   welcome_back_after_redirection: "Nice to see you again! This is where you left last time"
   need_a_hint: "Do you need a hint?"
   about: "About"
   sending_solution: "Sending solution"
-  path_finished_html: "You have finished %{path}!"
+  unmeet_expectations: "Unmet expectations"
+  
+  pillars:
+    practice_to_theory: "From practice to theory"
+    practice_to_theory_description: "Al igual que si quisieras aprender a tocar un instrumento, jugar al ajedrez o triunfar en un deporte, para aprender a programar es fundamental     ejercitar. Pero además necesitás incorporar conceptos teóricos que hacen a los profesionales. En Mumuki iremos de la práctica a la teoría: cada ejercicio tiene una idea detrás que descubriremos juntos"
+    transcendent_content: "Everything changes, but not that much"
+    transcendent_content_description: "Las tecnologías de la programación cambian todos los días, y mantenerse a flote puede ser muy estresante... ¡a menos que domines los conceptos fundamentales!     En Mumuki no pretenderemos enseñarte las herramientas que surgen todos los días, sino los conceptos de programación trascendentales que desde hace 30 años no cambian y te permitirán      dominar fácilmente cualquier nueva tecnología"
+    localized: "In your language"
+    localized_description: "Es difícil encontrar material sobre programación, de calidad y en Español, tanto dentro como fuera de la Web.       Nuestra misión es llevar la programación a todos, lo cual no puede lograrse si el contenido no está en tu idioma. Por eso en Mumuki encontrarás todo el contenido en Español"
+    freedom: "Because freedom is a right"
+    freedom_description: "Para que la educación llegue a todos y sea realmente democrática, no basta con que los cursos sean gratuitos: deben ser libres. Por eso, todo Mumuki, tanto        su contenido como su software es de código abierto y libre, distribuido bajo licencias GPL y MIT"
+    extensibility: "An extensible platform"
+    extensibility_description: "La plataforma Mumuki es muy fácil de extender.      Si te gustaría que tu lenguaje favorito esté aquí, vos mismo podés hacerlo. Contamos con todas las herramientas y documentación que necesitás"
+    classroom: "In and out of the classroom"
+    classroom_description: "Ya sea que sea un autodidacta que está buscando aprender a programar en Internet, o un alumno de un curso de programación presencial, Mumuki te será útil"
+  uncategorized: "Uncategorized"
+  recent_activity: "Recent Activity"
+  created_exercises: "Created Exercises"
+  created_guides: "Created Guides"
+  path_finished_html: "Congratulations! You have finished %{path}!"
   editor: "Editor"
   console: "Console"
   type_expressions_here: "You can type expressions here to test your solution"
@@ -146,3 +175,4 @@ en:
   navigation_previous: 'Previous'
   navigation_next: 'Next'
   navigation_revisit: 'Next pending: %{sibling}'
+  
