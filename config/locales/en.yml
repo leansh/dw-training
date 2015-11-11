@@ -71,7 +71,7 @@ en:
   listing_exercises: Listing exercises
   more: more...
   more_guides: more guides
-  mumuki_catchphrase: Improve your programming skills
+  mumuki_catchphrase: Improve your DataWeave skills
   mumuki_is_collaborative: Mumuki is collaborative
   mumuki_is_collaborative_description: Mumuki's exercises are not provided by experts but by the community. There is no distinction between a teacher and a student in Mumuki - anyone can create new exercises. We encourage you to create and share your own.
   mumuki_is_open: Mumuki is open
@@ -152,7 +152,7 @@ en:
   
   pillars:
     practice_to_theory: "From practice to theory"
-    practice_to_theory_description: "Al igual que si quisieras aprender a tocar un instrumento, jugar al ajedrez o triunfar en un deporte, para aprender a programar es fundamental     ejercitar. Pero además necesitás incorporar conceptos teóricos que hacen a los profesionales. En Mumuki iremos de la práctica a la teoría: cada ejercicio tiene una idea detrás que descubriremos juntos"
+    practice_to_theory_description: "Whether you want to learn play an instrument, chess or succeed in a sport, exercising is fundamental. The same applies to programming. But you also need to incorporate theoretical concepts "
     transcendent_content: "Everything changes, but not that much"
     transcendent_content_description: "Las tecnologías de la programación cambian todos los días, y mantenerse a flote puede ser muy estresante... ¡a menos que domines los conceptos fundamentales!     En Mumuki no pretenderemos enseñarte las herramientas que surgen todos los días, sino los conceptos de programación trascendentales que desde hace 30 años no cambian y te permitirán      dominar fácilmente cualquier nueva tecnología"
     localized: "In your language"
