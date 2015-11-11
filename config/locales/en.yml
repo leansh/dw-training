@@ -175,4 +175,6 @@ en:
   navigation_previous: 'Previous'
   navigation_next: 'Next'
   navigation_revisit: 'Next pending: %{sibling}'
-  
+  already_finished_guide: "That means you've <strong>completed this guide<strong>! Well done!"
+
+

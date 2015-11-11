@@ -175,3 +175,4 @@ es:
   navigation_previous: 'Anterior'
   navigation_next: 'Siguiente'
   navigation_revisit: 'Siguiente pendiente: %{sibling}'
+  already_finished_guide: ¡Eso significa que <strong>ya terminaste esta guía</strong>! ¡Bien hecho!
