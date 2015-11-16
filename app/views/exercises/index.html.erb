@@ -20,31 +20,33 @@
 <div class="row">
   <div class="col-md-12">
     <% @exercises.each do |exercise| %>
-      <div class="panel panel-default exercise-panel">
-        <div class="panel-body">
-          <div class="row">
-            <div class="col-md-10 hero-text">
-              <p class="text-left">
-                <%= exercise_status_icon(exercise) %>
-                <strong><%= link_to_exercise exercise %></strong>
-              </p>
+      <a href="<%= url_for exercise %>">
+        <div class="panel panel-default exercise-panel">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-md-10 hero-text">
+                <p class="text-left">
+                  <%= exercise_status_fa_icon(exercise) %>
+                  <strong><%= extract_name(exercise,{}) %></strong>
+                </p>
+              </div>
+              <!--<div class="col-md-2">-->
+                <!--<p class="text-right">-->
+                  <!--<%= language_icon exercise.language %>-->
+                <!--</p>-->
+              <!--</div>-->
             </div>
-            <!--<div class="col-md-2">-->
-              <!--<p class="text-right">-->
-                <!--<%= language_icon exercise.language %>-->
-              <!--</p>-->
-            <!--</div>-->
-          </div>
-          <div class="row">
-            <div class="col-md-9">
-              <%= exercise.teaser_html(link_to '...', exercise) %>
+            <div class="row">
+              <div class="col-md-9">
+                <%= exercise.teaser_html(link_to '...', exercise) %>
+              </div>
+              <!--<div class="col-md-3">-->
+                <!--<p class="text-right"><%= exercise.submissions_count %> <%= t :submissions_count %> </p>-->
+              <!--</div>-->
             </div>
-            <!--<div class="col-md-3">-->
-              <!--<p class="text-right"><%= exercise.submissions_count %> <%= t :submissions_count %> </p>-->
-            <!--</div>-->
           </div>
         </div>
-      </div>
+      </a>
     <% end %>
   </div>
 </div>
