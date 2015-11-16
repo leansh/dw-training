@@ -75,6 +75,32 @@
   background-color: ghostwhite;
 }
 
+//====================================
+.panel-body {
+  text-decoration: none;
+  font-family: 'Helvetica Neue';
+  color: #333333;
+}
+
+.panel-body:hover {
+  background-color: #4b77be;
+  color: white;
+  //transition: all 0.2s;
+}
+
+.hero-text {
+  font-size: 18px;
+}
+
+.text-mute {
+  color: #b3babc;
+}
+
+.description {
+  font-size: 15px;
+}
+//====================================
+
 .actions {
   text-align: right;
 }

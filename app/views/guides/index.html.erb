@@ -20,40 +20,34 @@
 <div class="row">
   <div class="col-md-12">
     <% @guides.each do |it| %>
-      <div class="panel panel-default exercise-panel">
-        <div class="panel-body">
-          <div class="row">
-            <div class="col-md-10">
-              <p class="text-left">
-                <%# exercise_status_icon(it) %>
-                <strong><%= link_to_guide it %></strong>
-                <%= with_classifications(it) %>
-              </p>
+      <a class="card" href="<%= url_for it %>">
+        <div class="panel panel-default exercise-panel">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-md-10 hero-text">
+                <p class="text-left">
+                  <%# exercise_status_icon(it) %>
+                  <strong><%= extract_name(it, {}) %></strong>
+                  <%= with_classifications(it) %>
+                </p>
+              </div>
+              <!--<div class="col-md-2">-->
+                <!--<p class="text-right">-->
+                  <!--<%= language_icon it.language %>-->
+                <!--</p>-->
+              <!--</div>-->
             </div>
-            <div class="col-md-2">
-              <p class="text-right">
-                <%= language_icon it.language %>
-              </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-9">
-              <%= it.teaser_html(link_to '...', it) %>
-            </div>
-            <div class="col-md-3">
-              <p class="text-right"><%= it.exercises_count %> <%= t :exercise_count %> <%# TODO use quantifiers %> </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-8">
-              <%= link_to_tag_list(it.search_tags) %>
-            </div>
-            <div class="col-md-4">
-              <p class="text-right"><%= time_ago_in_words(it.created_at) %></p>
+            <div class="row">
+              <div class="col-md-9">
+                <%= it.teaser_html(link_to '...', it) %>
+              </div>
+              <div class="col-md-3">
+                <p class="text-right"><%= it.exercises_count %> <%= t :exercise_count %> <%# TODO use quantifiers %> </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </a>
     <% end %>
   </div>
 </div>
