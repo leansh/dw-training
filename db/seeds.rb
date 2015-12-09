@@ -26,7 +26,7 @@ Language.create!(name: 'gobstones',
 Language.create!(name: 'DataWeave',
                  test_runner_url: 'http://mumuki-dw-runner.cloudhub.io/api',
                  extension: 'yml',
-                 image_url: 'https://www.ruby-lang.org/images/header-ruby-logo.png')
+                 image_url: 'http://i.imgur.com/23ISnmu.png')
 
 
 functional = Category.create!(name: 'Programación Funcional',
