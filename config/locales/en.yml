@@ -50,7 +50,7 @@ en:
   good_progress_in_guide: Also, you are making it <strong>really well</strong>! Most of you submissions have passed, congratulations!
   guide: Guide
   guide_created: Guide created successfully
-  guide_finished: Congrants! You completed guide %{guide}
+  guide_finished: Congrats! You completed guide %{guide}
   guide_has_exercises_stats: This guide has <strong>%{total} exercises</strong>
   guides_index_title: Which guide do you want to do today?
   hello: Hello world
@@ -140,7 +140,7 @@ en:
   unknown_exercises_stats: And there still are <strong> %{count} that you could try to solve</strong>.
   username: Username
   you_can_use_markdown_here_html: You can use <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> here
-  you_must: You must %{action} before continue
+  you_must: You must %{action} to continue
   you_must_sign_in_before_submitting: You must sign in before submitting your solutions
   you_must_sign_in_to_see_stats: You must sign in to see more stats about your progress
   what_exactly_are_expectations_html: ¿What exactly are <a href="http://www.mumuki.org/expectativas/plataform/2015/06/16/el-lenguaje-de-expectativas/">Expectations</a>?
