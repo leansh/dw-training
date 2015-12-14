@@ -10,7 +10,12 @@ module WithAssignments
   end
 
   def assignment_for(user)
-    assignments.find_by(submitter_id: user.id)
+    if (user.nil?) then
+      nil
+    else
+      assignments.find_by(submitter_id: user.id)
+    end
+
   end
 
   def solved_by?(user)
