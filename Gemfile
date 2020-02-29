@@ -66,7 +66,7 @@ gem 'mumukit-bridge',     :github => 'mumuki/mumukit-bridge', :tag=> 'v0.3.0'
 group :test do
   gem 'rspec-rails', '~> 2.14'
   gem 'factory_girl_rails'
-  gem 'rake', '10.4.2'
+  gem 'rake', '12.3.3'
   gem 'faker', '~> 1.5'
   gem 'capybara', '2.3.0'
 end
