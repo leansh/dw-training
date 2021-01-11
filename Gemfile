@@ -37,7 +37,7 @@ gem 'omniauth-facebook'
 gem 'font-awesome-rails'
 
 gem 'rouge'
-gem 'redcarpet', '~> 3.3.2'
+gem 'redcarpet', '~> 3.5.1'
 gem 'md_emoji'
 
 gem 'ace-rails-ap', '~> 4.0'
