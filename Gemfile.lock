@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/mumuki/mumukit-bridge.git
+  remote: https://github.com/mumuki/mumukit-bridge.git
   revision: 4c178dd71c6f38e93f2cfdca0db14226d777b6c3
   tag: v0.3.0
   specs:
@@ -8,11 +8,13 @@ GIT
       rest-client
 
 GIT
-  remote: git://github.com/mumuki/mumukit-inspection.git
-  revision: 11f0a129b18138336a2d2b1c9b72b97b2f34b208
+  remote: https://github.com/mumuki/mumukit-inspection.git
+  revision: f2bb916382ec93c2d97dd1c1afec370630c1539f
   branch: master
   specs:
-    mumukit-inspection (0.0.1)
+    mumukit-inspection (6.0.0)
+      mulang (~> 6.0)
+      mumukit-core (> 1.0, < 2)
 
 GEM
   remote: https://rubygems.org/
@@ -108,7 +110,7 @@ GEM
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
     docile (1.1.5)
-    domain_name (0.5.24)
+    domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     easy_translate (0.5.0)
       json
@@ -139,7 +141,8 @@ GEM
     hashie (3.4.2)
     highline (1.7.3)
     hitimes (1.2.2)
-    http-cookie (1.0.2)
+    http-accept (1.7.0)
+    http-cookie (1.0.5)
       domain_name (~> 0.5)
     i18n (0.7.0)
     i18n-tasks (0.8.7)
@@ -176,10 +179,16 @@ GEM
     mime-types (1.25.1)
     mini_portile (0.6.2)
     minitest (5.8.0)
+    mulang (6.0.9)
+      mumukit-core (> 1.0)
     multi_json (1.11.2)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
-    netrc (0.10.3)
+    mumukit-core (1.18.0)
+      activesupport (>= 4.1)
+      i18n (~> 0.7)
+      rack (>= 1.5)
+    netrc (0.11.0)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     nprogress-rails (0.1.6.7)
@@ -251,10 +260,11 @@ GEM
     ref (2.0.0)
     responders (1.1.2)
       railties (>= 3.2, < 4.2)
-    rest-client (1.8.0)
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
       http-cookie (>= 1.0.2, < 2.0)
-      mime-types (>= 1.16, < 3.0)
-      netrc (~> 0.7)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
     rouge (1.10.1)
     rspec-collection_matchers (1.1.2)
       rspec-expectations (>= 2.99.0.beta1)
@@ -304,7 +314,7 @@ GEM
       ref
     thor (0.19.1)
     thread (0.2.2)
-    thread_safe (0.3.5)
+    thread_safe (0.3.6)
     tilt (2.0.1)
     timers (4.0.4)
       hitimes
@@ -314,14 +324,14 @@ GEM
       polyglot (>= 0.3.1)
     turbolinks (2.5.3)
       coffee-rails
-    tzinfo (1.2.2)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.7.1)
+    unf_ext (0.0.7.7)
     unicorn (4.9.0)
       kgio (~> 2.6)
       rack
